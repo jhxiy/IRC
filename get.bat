@@ -4,7 +4,7 @@ curl https://raw.githubusercontent.com/jhxiy/IRC/main/irc_client.py -o irc_clien
 curl https://raw.githubusercontent.com/jhxiy/IRC/main/py_install.bat -o py_install.bat
 curl https://raw.githubusercontent.com/jhxiy/IRC/main/pip_install.bat -o pip_install.bat
 start py_install.bat
-start pip_install.bat
-
 timeout 300
+start pip_install.bat
+timeout 100
 start run.bat
