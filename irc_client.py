@@ -103,7 +103,7 @@ def create_shortcut():
     move_file(file, STARTUP_DIR)
 
 def setup():# fix
-    install_modules()
+    #install_modules()
     create_root_dir()
     move_file(os.path.basename(__file__), CLIENT_DIR_PATH)
     dl_msedgedriver(DRIVER_DIR_PATH)
