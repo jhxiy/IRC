@@ -1,1 +1,1 @@
-python-3.6.9.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
+python.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
